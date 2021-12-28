@@ -1,0 +1,252 @@
+<sdf version='1.7'>
+  <model name='mowbot'>
+    <link name='base_link_collision'>
+      <inertial>
+        <pose>-1.14678 -0.466995 0.655695 0 -0 0</pose>
+        <mass>17.2392</mass>
+        <inertia>
+          <ixx>2.26769</ixx>
+          <ixy>-2.41842e-05</ixy>
+          <ixz>0.154572</ixz>
+          <iyy>2.84469</iyy>
+          <iyz>-7.84563e-05</iyz>
+          <izz>4.91561</izz>
+        </inertia>
+      </inertial>
+      <collision name='base_link_collision_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://mowbot/meshes/base_link_collision.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_fixed_joint_lump__Front_left_wheel_collision_collision_1'>
+        <pose>-0.45376 -0.00965 0.53563 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://mowbot/meshes/Front_left_wheel_collision.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_fixed_joint_lump__Front_right_wheel_collision_collision_2'>
+        <pose>-0.46473 -0.9216 0.53563 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://mowbot/meshes/Front_right_wheel_collision.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_fixed_joint_lump__Left_back_link_collision_collision_3'>
+        <pose>-1.5558 -0.024 0.62929 0 0 -3.14159</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://mowbot/meshes/Left_back_link_collision.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_fixed_joint_lump__Big_Left_drive_wheel_collision_4'>
+        <pose>-1.5558 0.035347 0.62929 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://mowbot/meshes/Big_Left_drive_wheel.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_fixed_joint_lump__Front_right_pivot_collision_collision_5'>
+        <pose>-0.45126 -0.88591 0.73883 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://mowbot/meshes/Front_right_pivot_collision.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_fixed_joint_lump__Right_back_link_collision_collision_6'>
+        <pose>-1.5558 -0.9108 0.62929 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://mowbot/meshes/Right_back_link_collision.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_fixed_joint_lump__Big_right_drive_wheel_collision_7'>
+        <pose>-1.5558 -0.970147 0.62929 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://mowbot/meshes/Big_right_drive_wheel.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_fixed_joint_lump__Front_left_pivot_collision_collision_8'>
+        <pose>-0.45126 -0.04771 0.73883 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://mowbot/meshes/Front_left_pivot_collision.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_fixed_joint_lump__back_plate_collision_9'>
+        <pose>-1.6501 -0.46681 0.64993 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://mowbot/meshes/back_plate.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_fixed_joint_lump__mow_bot_shell_collision_10'>
+        <pose>-1.4447 -0.46681 0.81909 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://mowbot/meshes/mow_bot_shell.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_fixed_joint_lump__LiDAR_collision_11'>
+        <pose>-1.30703 -0.46681 0.883758 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://mowbot/meshes/LiDAR.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_fixed_joint_lump__Camera_collision_12'>
+        <pose>-1.22601 -0.46681 0.81909 0 0 -3.14159</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://mowbot/meshes/Camera.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='base_link_collision_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://mowbot/meshes/base_link_collision.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_collision_fixed_joint_lump__Front_left_wheel_collision_visual_1'>
+        <pose>-0.45376 -0.00965 0.53563 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://mowbot/meshes/Front_left_wheel_collision.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_collision_fixed_joint_lump__Front_right_wheel_collision_visual_2'>
+        <pose>-0.46473 -0.9216 0.53563 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://mowbot/meshes/Front_right_wheel_collision.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_collision_fixed_joint_lump__Left_back_link_collision_visual_3'>
+        <pose>-1.5558 -0.024 0.62929 0 0 -3.14159</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://mowbot/meshes/Left_back_link_collision.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_collision_fixed_joint_lump__Big_Left_drive_wheel_visual_4'>
+        <pose>-1.5558 0.035347 0.62929 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://mowbot/meshes/Big_Left_drive_wheel.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_collision_fixed_joint_lump__Front_right_pivot_collision_visual_5'>
+        <pose>-0.45126 -0.88591 0.73883 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://mowbot/meshes/Front_right_pivot_collision.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_collision_fixed_joint_lump__Right_back_link_collision_visual_6'>
+        <pose>-1.5558 -0.9108 0.62929 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://mowbot/meshes/Right_back_link_collision.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_collision_fixed_joint_lump__Big_right_drive_wheel_visual_7'>
+        <pose>-1.5558 -0.970147 0.62929 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://mowbot/meshes/Big_right_drive_wheel.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_collision_fixed_joint_lump__Front_left_pivot_collision_visual_8'>
+        <pose>-0.45126 -0.04771 0.73883 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://mowbot/meshes/Front_left_pivot_collision.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_collision_fixed_joint_lump__back_plate_visual_9'>
+        <pose>-1.6501 -0.46681 0.64993 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://mowbot/meshes/back_plate.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_collision_fixed_joint_lump__mow_bot_shell_visual_10'>
+        <pose>-1.4447 -0.46681 0.81909 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://mowbot/meshes/mow_bot_shell.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_collision_fixed_joint_lump__LiDAR_visual_11'>
+        <pose>-1.30703 -0.46681 0.883758 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://mowbot/meshes/LiDAR.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_collision_fixed_joint_lump__Camera_visual_12'>
+        <pose>-1.22601 -0.46681 0.81909 0 0 -3.14159</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://mowbot/meshes/Camera.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

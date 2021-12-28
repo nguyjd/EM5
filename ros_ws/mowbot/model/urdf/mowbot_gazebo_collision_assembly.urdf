@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="mowbot">
+  <link
+    name="base_link_collision">
+    <inertial>
+      <origin
+        xyz="-1.07242311207568 -0.466809806679582 0.659283164452566"
+        rpy="0 0 0" />
+      <mass
+        value="8.43639227238404" />
+      <inertia
+        ixx="0.784903759828431"
+        ixy="1.08724156323787E-16"
+        ixz="-0.0262712397999976"
+        iyy="0.513799136067179"
+        iyz="1.21747716886318E-16"
+        izz="1.27862934221056" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mowbot/meshes/base_link_collision.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mowbot/meshes/base_link_collision.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Left_back_link_collision">
+    <inertial>
+      <origin
+        xyz="0 -0.0516944479368262 1.11022302462516E-16"
+        rpy="0 0 0" />
+      <mass
+        value="0.457406434462016" />
+      <inertia
+        ixx="0.000379865320962435"
+        ixy="-1.53340823737443E-20"
+        ixz="2.00126009449548E-20"
+        iyy="0.000605566845786777"
+        iyz="-6.36282392622323E-20"
+        izz="0.000379865320962435" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mowbot/meshes/Left_back_link_collision.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.647058823529412 0.619607843137255 0.588235294117647 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mowbot/meshes/Left_back_link_collision.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Left_drive_wheel_collision"
+    type="fixed">
+    <origin
+      xyz="-1.5558 -0.024 0.62929"
+      rpy="0 0 3.1416" />
+    <parent
+      link="base_link_collision" />
+    <child
+      link="Left_back_link_collision" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      effort="14.08"
+      velocity="12.47" />
+  </joint>
+  <link
+    name="Big_Left_drive_wheel">
+    <inertial>
+      <origin
+        xyz="2.88657986402541E-15 0.00253999999999991 6.99440505513849E-15"
+        rpy="0 0 0" />
+      <mass
+        value="0.865783559302399" />
+      <inertia
+        ixx="0.0087101639453226"
+        ixy="-1.8447046377941E-19"
+        ixz="6.2871241193797E-18"
+        iyy="0.0148072252563878"
+        iyz="1.27245613539844E-18"
+        izz="0.00871016394532261" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mowbot/meshes/Big_Left_drive_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.250980392156863 0.250980392156863 0.250980392156863 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mowbot/meshes/Big_Left_drive_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Left_big_wheel"
+    type="fixed">
+    <origin
+      xyz="0 -0.059347 0"
+      rpy="0 0 -3.1416" />
+    <parent
+      link="Left_back_link_collision" />
+    <child
+      link="Big_Left_drive_wheel" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="Right_back_link_collision">
+    <inertial>
+      <origin
+        xyz="0.0516944479368262 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.457406434462017" />
+      <inertia
+        ixx="0.000605566845786777"
+        ixy="-4.54885968259021E-20"
+        ixz="-1.4852017744384E-20"
+        iyy="0.000379865320962435"
+        iyz="6.66407504159206E-20"
+        izz="0.000379865320962436" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mowbot/meshes/Right_back_link_collision.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.647058823529412 0.619607843137255 0.588235294117647 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mowbot/meshes/Right_back_link_collision.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Right_drive_wheel_collision"
+    type="fixed">
+    <origin
+      xyz="-1.5558 -0.9108 0.62929"
+      rpy="0 0 -1.5708" />
+    <parent
+      link="base_link_collision" />
+    <child
+      link="Right_back_link_collision" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      effort="14.08"
+      velocity="12.47" />
+  </joint>
+  <link
+    name="Big_right_drive_wheel">
+    <inertial>
+      <origin
+        xyz="0 -0.0025400000000001 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.865783559302402" />
+      <inertia
+        ixx="0.00871016394532259"
+        ixy="2.01760622051767E-18"
+        ixz="2.57399683328125E-18"
+        iyy="0.0148072252563877"
+        iyz="2.68460910313788E-18"
+        izz="0.00871016394532259" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mowbot/meshes/Big_right_drive_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.250980392156863 0.250980392156863 0.250980392156863 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mowbot/meshes/Big_right_drive_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Right_drive_wheel"
+    type="fixed">
+    <origin
+      xyz="0.059347 0 0"
+      rpy="0 0 1.5708" />
+    <parent
+      link="Right_back_link_collision" />
+    <child
+      link="Big_right_drive_wheel" />
+    <axis
+      xyz="0 -1 0" />
+  </joint>
+  <link
+    name="Front_right_wheel_collision">
+    <inertial>
+      <origin
+        xyz="-0.0362351705056738 0.011773802207645 -1.11022302462516E-16"
+        rpy="0 0 0" />
+      <mass
+        value="0.572204494653308" />
+      <inertia
+        ixx="0.000736746749851423"
+        ixy="-3.31369879620031E-05"
+        ixz="1.207002854401E-20"
+        iyy="0.000645531144479367"
+        iyz="-3.92188381438836E-21"
+        izz="0.000634764026881268" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mowbot/meshes/Front_right_wheel_collision.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mowbot/meshes/Front_right_wheel_collision.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Front_right_wheel_collision"
+    type="fixed">
+    <origin
+      xyz="-0.46473 -0.9216 0.53563"
+      rpy="0 0 -1.5708" />
+    <parent
+      link="base_link_collision" />
+    <child
+      link="Front_right_wheel_collision" />
+    <axis
+      xyz="-0.95105 0.30902 0" />
+  </joint>
+  <link
+    name="Front_left_wheel_collision">
+    <inertial>
+      <origin
+        xyz="0.0380933250274411 0.000713153807905376 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.572204494653308" />
+      <inertia
+        ixx="0.000747474364238742"
+        ixy="2.1100758786185E-06"
+        ixz="-2.22480801212241E-20"
+        iyy="0.000634803530092046"
+        iyz="-5.65057302719004E-21"
+        izz="0.000634764026881268" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mowbot/meshes/Front_left_wheel_collision.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mowbot/meshes/Front_left_wheel_collision.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Front_left_caster_wheel_collision"
+    type="fixed">
+    <origin
+      xyz="-0.45376 -0.0096498 0.53563"
+      rpy="0 0 -1.5708" />
+    <parent
+      link="base_link_collision" />
+    <child
+      link="Front_left_wheel_collision" />
+    <axis
+      xyz="-0.99982 -0.018718 0" />
+  </joint>
+  <link
+    name="Front_right_pivot_collision">
+    <inertial>
+      <origin
+        xyz="0.00312127257340478 0.00960663401184786 -0.138503316862634"
+        rpy="0 0 0" />
+      <mass
+        value="0.653153653717284" />
+      <inertia
+        ixx="0.00187148737171852"
+        ixy="0.000481271649470043"
+        ixz="-3.57978459347905E-05"
+        iyy="0.00319627975514256"
+        iyz="-0.000110145417942268"
+        izz="0.00245508069726112" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mowbot/meshes/Front_right_pivot_collision.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mowbot/meshes/Front_right_pivot_collision.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Right_caster_wheel_pivot_collision"
+    type="fixed">
+    <origin
+      xyz="-0.45126 -0.88591 0.73883"
+      rpy="0 0 -1.5708" />
+    <parent
+      link="base_link_collision" />
+    <child
+      link="Front_right_pivot_collision" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Front_left_pivot_collision">
+    <inertial>
+      <origin
+        xyz="-0.000189247104649098 0.0100992051691442 -0.138503316862633"
+        rpy="0 0 0" />
+      <mass
+        value="0.65315365371728" />
+      <inertia
+        ixx="0.0017156831912875"
+        ixy="-3.06474534539606E-05"
+        ixz="2.15969712554344E-06"
+        iyy="0.00335208393557355"
+        iyz="-0.000115796522294816"
+        izz="0.00245508069726111" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mowbot/meshes/Front_left_pivot_collision.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mowbot/meshes/Front_left_pivot_collision.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left_caster_wheel_pivot_collision"
+    type="fixed">
+    <origin
+      xyz="-0.45126 -0.04771 0.73883"
+      rpy="0 0 -1.5708" />
+    <parent
+      link="base_link_collision" />
+    <child
+      link="Front_left_pivot_collision" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="mow_bot_shell">
+    <inertial>
+      <origin
+        xyz="0.0103177962563166 -1.66533453693773E-16 -0.0754580559320999"
+        rpy="0 0 0" />
+      <mass
+        value="2.52229769150772" />
+      <inertia
+        ixx="0.240070247017617"
+        ixy="1.70831815742384E-15"
+        ixz="-0.000443159597835744"
+        iyy="0.0837962037965343"
+        iyz="2.11120651691378E-15"
+        izz="0.291120617111823" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mowbot/meshes/mow_bot_shell.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mowbot/meshes/mow_bot_shell.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="shell_main"
+    type="fixed">
+    <origin
+      xyz="-1.4447 -0.46681 0.81909"
+      rpy="0 0 0" />
+    <parent
+      link="base_link_collision" />
+    <child
+      link="mow_bot_shell" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="Camera">
+    <inertial>
+      <origin
+        xyz="0.00605257666050485 1.11022302462516E-16 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.0169771128221458" />
+      <inertia
+        ixx="4.41883394431852E-06"
+        ixy="7.09527723611906E-20"
+        ixz="1.06858031281253E-20"
+        iyy="1.15088438571727E-06"
+        iyz="1.61028597114318E-20"
+        izz="3.79395393827725E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mowbot/meshes/Camera.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mowbot/meshes/Camera.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="camera_box"
+    type="fixed">
+    <origin
+      xyz="0.21869 0 0"
+      rpy="0 0 3.1416" />
+    <parent
+      link="mow_bot_shell" />
+    <child
+      link="Camera" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="LiDAR">
+    <inertial>
+      <origin
+        xyz="-2.22044604925031E-16 -1.66533453693773E-16 -0.0221554573851589"
+        rpy="0 0 0" />
+      <mass
+        value="0.148759159944866" />
+      <inertia
+        ixx="6.39045146661207E-05"
+        ixy="-3.10192729702637E-22"
+        ixz="4.44079976516149E-19"
+        iyy="6.39045146661208E-05"
+        iyz="2.13938456213802E-19"
+        izz="9.5825436313615E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mowbot/meshes/LiDAR.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mowbot/meshes/LiDAR.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="LiDAR_unit"
+    type="fixed">
+    <origin
+      xyz="0.13767 0 0.064668"
+      rpy="0 0 0" />
+    <parent
+      link="mow_bot_shell" />
+    <child
+      link="LiDAR" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="back_plate">
+    <inertial>
+      <origin
+        xyz="0.00253999999999999 0 1.11022302462516E-16"
+        rpy="0 0 0" />
+      <mass
+        value="1.01763667439999" />
+      <inertia
+        ixx="0.069552044891922"
+        ixy="-2.18773587598435E-18"
+        ixz="-1.61488076606738E-18"
+        iyy="0.00443382318036685"
+        iyz="-9.85967159903113E-33"
+        izz="0.0651225986347341" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mowbot/meshes/back_plate.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mowbot/meshes/back_plate.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="mowbot_back"
+    type="fixed">
+    <origin
+      xyz="-1.6501 -0.46681 0.64993"
+      rpy="0 0 0" />
+    <parent
+      link="base_link_collision" />
+    <child
+      link="back_plate" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>
