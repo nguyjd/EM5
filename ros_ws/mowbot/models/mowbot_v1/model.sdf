@@ -18,7 +18,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://mowbot/meshes/base_link_collision.STL</uri>
+            <uri>model://mowbot_v1/meshes/base_link_collision.STL</uri>
           </mesh>
         </geometry>
       </collision>
@@ -27,7 +27,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://mowbot/meshes/Front_left_wheel_collision.STL</uri>
+            <uri>model://mowbot_v1/meshes/Front_left_wheel_collision.STL</uri>
           </mesh>
         </geometry>
       </collision>
@@ -36,7 +36,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://mowbot/meshes/Front_right_wheel_collision.STL</uri>
+            <uri>model://mowbot_v1/meshes/Front_right_wheel_collision.STL</uri>
           </mesh>
         </geometry>
       </collision>
@@ -45,7 +45,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://mowbot/meshes/Left_back_link_collision.STL</uri>
+            <uri>model://mowbot_v1/meshes/Left_back_link_collision.STL</uri>
           </mesh>
         </geometry>
       </collision>
@@ -54,7 +54,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://mowbot/meshes/Big_Left_drive_wheel.STL</uri>
+            <uri>model://mowbot_v1/meshes/Big_Left_drive_wheel.STL</uri>
           </mesh>
         </geometry>
       </collision>
@@ -63,7 +63,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://mowbot/meshes/Front_right_pivot_collision.STL</uri>
+            <uri>model://mowbot_v1/meshes/Front_right_pivot_collision.STL</uri>
           </mesh>
         </geometry>
       </collision>
@@ -72,7 +72,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://mowbot/meshes/Right_back_link_collision.STL</uri>
+            <uri>model://mowbot_v1/meshes/Right_back_link_collision.STL</uri>
           </mesh>
         </geometry>
       </collision>
@@ -81,7 +81,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://mowbot/meshes/Big_right_drive_wheel.STL</uri>
+            <uri>model://mowbot_v1/meshes/Big_right_drive_wheel.STL</uri>
           </mesh>
         </geometry>
       </collision>
@@ -90,7 +90,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://mowbot/meshes/Front_left_pivot_collision.STL</uri>
+            <uri>model://mowbot_v1/meshes/Front_left_pivot_collision.STL</uri>
           </mesh>
         </geometry>
       </collision>
@@ -99,7 +99,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://mowbot/meshes/back_plate.STL</uri>
+            <uri>model://mowbot_v1/meshes/back_plate.STL</uri>
           </mesh>
         </geometry>
       </collision>
@@ -108,7 +108,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://mowbot/meshes/mow_bot_shell.STL</uri>
+            <uri>model://mowbot_v1/meshes/mow_bot_shell.STL</uri>
           </mesh>
         </geometry>
       </collision>
@@ -117,7 +117,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://mowbot/meshes/LiDAR.STL</uri>
+            <uri>model://mowbot_v1/meshes/LiDAR.STL</uri>
           </mesh>
         </geometry>
       </collision>
@@ -126,7 +126,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://mowbot/meshes/Camera.STL</uri>
+            <uri>model://mowbot_v1/meshes/Camera.STL</uri>
           </mesh>
         </geometry>
       </collision>
@@ -135,7 +135,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://mowbot/meshes/base_link_collision.STL</uri>
+            <uri>model://mowbot_v1/meshes/base_link_collision.STL</uri>
           </mesh>
         </geometry>
       </visual>
@@ -144,7 +144,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://mowbot/meshes/Front_left_wheel_collision.STL</uri>
+            <uri>model://mowbot_v1/meshes/Front_left_wheel_collision.STL</uri>
           </mesh>
         </geometry>
       </visual>
@@ -153,7 +153,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://mowbot/meshes/Front_right_wheel_collision.STL</uri>
+            <uri>model://mowbot_v1/meshes/Front_right_wheel_collision.STL</uri>
           </mesh>
         </geometry>
       </visual>
@@ -162,7 +162,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://mowbot/meshes/Left_back_link_collision.STL</uri>
+            <uri>model://mowbot_v1/meshes/Left_back_link_collision.STL</uri>
           </mesh>
         </geometry>
       </visual>
@@ -171,7 +171,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://mowbot/meshes/Big_Left_drive_wheel.STL</uri>
+            <uri>model://mowbot_v1/meshes/Big_Left_drive_wheel.STL</uri>
           </mesh>
         </geometry>
       </visual>
@@ -180,7 +180,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://mowbot/meshes/Front_right_pivot_collision.STL</uri>
+            <uri>model://mowbot_v1/meshes/Front_right_pivot_collision.STL</uri>
           </mesh>
         </geometry>
       </visual>
@@ -189,7 +189,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://mowbot/meshes/Right_back_link_collision.STL</uri>
+            <uri>model://mowbot_v1/meshes/Right_back_link_collision.STL</uri>
           </mesh>
         </geometry>
       </visual>
@@ -198,7 +198,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://mowbot/meshes/Big_right_drive_wheel.STL</uri>
+            <uri>model://mowbot_v1/meshes/Big_right_drive_wheel.STL</uri>
           </mesh>
         </geometry>
       </visual>
@@ -207,7 +207,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://mowbot/meshes/Front_left_pivot_collision.STL</uri>
+            <uri>model://mowbot_v1/meshes/Front_left_pivot_collision.STL</uri>
           </mesh>
         </geometry>
       </visual>
@@ -216,7 +216,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://mowbot/meshes/back_plate.STL</uri>
+            <uri>model://mowbot_v1/meshes/back_plate.STL</uri>
           </mesh>
         </geometry>
       </visual>
@@ -225,7 +225,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://mowbot/meshes/mow_bot_shell.STL</uri>
+            <uri>model://mowbot_v1/meshes/mow_bot_shell.STL</uri>
           </mesh>
         </geometry>
       </visual>
@@ -234,7 +234,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://mowbot/meshes/LiDAR.STL</uri>
+            <uri>model://mowbot_v1/meshes/LiDAR.STL</uri>
           </mesh>
         </geometry>
       </visual>
@@ -243,7 +243,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://mowbot/meshes/Camera.STL</uri>
+            <uri>model://mowbot_v1/meshes/Camera.STL</uri>
           </mesh>
         </geometry>
       </visual>
