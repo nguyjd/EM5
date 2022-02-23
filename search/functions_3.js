@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['enable_58',['enable',['../classDriveControl_1_1DriveControl.html#ad7d5e7245c9d927a9b6be5ac2e0bc70b',1,'DriveControl.DriveControl.enable()'],['../classRelayControl_1_1RelayControl.html#ae8c4b29ded83c1e0844445491c256628',1,'RelayControl.RelayControl.enable()']]],
-  ['engage_59',['engage',['../classSabertooth2x60_1_1Sabertooth2x60.html#aedeabef49260282b0828883e029ccb69',1,'Sabertooth2x60::Sabertooth2x60']]]
+  ['enable_64',['enable',['../classmcs_1_1controllers_1_1DriveControl_1_1DriveControl.html#a6628f4838460a30cb7f79b0a016d9252',1,'mcs.controllers.DriveControl.DriveControl.enable()'],['../classmcs_1_1firmware_1_1RelayControl_1_1RelayControl.html#a4429d108e4283b2daaeabd302a40616d',1,'mcs.firmware.RelayControl.RelayControl.enable()']]],
+  ['engage_65',['engage',['../classmcs_1_1firmware_1_1Sabertooth2x60_1_1Sabertooth2x60.html#a8601746432a83420a0dc12580cd025b0',1,'mcs::firmware::Sabertooth2x60::Sabertooth2x60']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['veerleftdegrees_70',['veerLeftDegrees',['../classDriveControl_1_1DriveControl.html#af84ec21afdec4b56b3494d07d635b53c',1,'DriveControl::DriveControl']]],
-  ['veerrightdegrees_71',['veerRightDegrees',['../classDriveControl_1_1DriveControl.html#afe4f7345885cfa6e96904274687ea564',1,'DriveControl::DriveControl']]]
+  ['veerleftdegrees_76',['veerLeftDegrees',['../classmcs_1_1controllers_1_1DriveControl_1_1DriveControl.html#a0a1a5311d7ab61b4f34f08d375b1e58a',1,'mcs::controllers::DriveControl::DriveControl']]],
+  ['veerrightdegrees_77',['veerRightDegrees',['../classmcs_1_1controllers_1_1DriveControl_1_1DriveControl.html#a5597c6800e01c9c4a1d08053abd72049',1,'mcs::controllers::DriveControl::DriveControl']]]
 ];

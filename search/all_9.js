@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['rapidstop_27',['rapidStop',['../classDriveControl_1_1DriveControl.html#ab6b666f6baba403c6eab6c31eea78dc3',1,'DriveControl::DriveControl']]],
-  ['relaycontrol_28',['RelayControl',['../classRelayControl_1_1RelayControl.html',1,'RelayControl']]],
-  ['rplidar_5fa2m4_5fr4_29',['rpLiDAR_A2M4_R4',['../classrpLiDAR__A2M4__R4_1_1rpLiDAR__A2M4__R4.html',1,'rpLiDAR_A2M4_R4.rpLiDAR_A2M4_R4'],['../classrpLiDAR__A2M4__R4__backup_1_1rpLiDAR__A2M4__R4.html',1,'rpLiDAR_A2M4_R4_backup.rpLiDAR_A2M4_R4']]]
+  ['rapidstop_31',['rapidStop',['../classmcs_1_1controllers_1_1DriveControl_1_1DriveControl.html#a522048aff464b5825659301513bfcff1',1,'mcs::controllers::DriveControl::DriveControl']]],
+  ['relaycontrol_32',['RelayControl',['../classmcs_1_1firmware_1_1RelayControl_1_1RelayControl.html',1,'mcs::firmware::RelayControl']]]
 ];

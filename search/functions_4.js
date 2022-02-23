@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['manualsetleftspeed_60',['manualSetLeftSpeed',['../classDriveControl_1_1DriveControl.html#a9c69343ba41e89f227bbf8e6681de2c0',1,'DriveControl::DriveControl']]],
-  ['manualsetrightspeed_61',['manualSetRightSpeed',['../classDriveControl_1_1DriveControl.html#a418d77b55117f63f058e63345e9e0035',1,'DriveControl::DriveControl']]]
+  ['manualsetleftspeed_66',['manualSetLeftSpeed',['../classmcs_1_1controllers_1_1DriveControl_1_1DriveControl.html#af6471cb50fa531d8fcf99efa6d2404a1',1,'mcs::controllers::DriveControl::DriveControl']]],
+  ['manualsetrightspeed_67',['manualSetRightSpeed',['../classmcs_1_1controllers_1_1DriveControl_1_1DriveControl.html#a62fbcb533f165f1496f542723e57bf9c',1,'mcs::controllers::DriveControl::DriveControl']]]
 ];

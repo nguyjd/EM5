@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['setmanualspeed_65',['setManualSpeed',['../classDriveControl_1_1DriveControl.html#a3077cc4bce48f0c1996f6ac2f4c5b40c',1,'DriveControl::DriveControl']]],
-  ['spin_66',['spin',['../classMD30C_1_1MD30C.html#a1d3d7ef88b94ec84c828c3167f06bd8e',1,'MD30C::MD30C']]],
-  ['state_67',['state',['../classBumper_1_1Bumper.html#a8c5104264864cacd29e38f483e8c9ea5',1,'Bumper::Bumper']]],
-  ['stop_68',['stop',['../classDriveControl_1_1DriveControl.html#a51225e6485e533a32f7fbf1a020e4d38',1,'DriveControl.DriveControl.stop()'],['../classMD30C_1_1MD30C.html#a6ab29bf40eaf050afcac82758a0eb41f',1,'MD30C.MD30C.stop()'],['../classSabertooth2x60_1_1Sabertooth2x60.html#ac3dbaedfe789dd1a594e8ad6a967e9a4',1,'Sabertooth2x60.Sabertooth2x60.stop()']]],
-  ['straight_69',['straight',['../classDriveControl_1_1DriveControl.html#a9afcb45e5ea4fb5492cc40e858e9a8c8',1,'DriveControl::DriveControl']]]
+  ['setmanualspeed_71',['setManualSpeed',['../classmcs_1_1controllers_1_1DriveControl_1_1DriveControl.html#a9226391f112c7ce7678b92fb4cce35d5',1,'mcs::controllers::DriveControl::DriveControl']]],
+  ['spin_72',['spin',['../classmcs_1_1firmware_1_1MD30C_1_1MD30C.html#a1fb1cef98d92200cf1ac03e7860af083',1,'mcs::firmware::MD30C::MD30C']]],
+  ['state_73',['state',['../classmcs_1_1firmware_1_1Bumper_1_1Bumper.html#a420be98ee9a600ccd0a934bebbe86009',1,'mcs::firmware::Bumper::Bumper']]],
+  ['stop_74',['stop',['../classmcs_1_1controllers_1_1DriveControl_1_1DriveControl.html#a51f1f2d34adb15537d0ede973bd16312',1,'mcs.controllers.DriveControl.DriveControl.stop()'],['../classmcs_1_1firmware_1_1MD30C_1_1MD30C.html#af67e86025e7dda96f16dae3c5b43d70f',1,'mcs.firmware.MD30C.MD30C.stop()'],['../classmcs_1_1firmware_1_1Sabertooth2x60_1_1Sabertooth2x60.html#ad9758facefa9d1a1c309b9a6de904481',1,'mcs.firmware.Sabertooth2x60.Sabertooth2x60.stop()']]],
+  ['straight_75',['straight',['../classmcs_1_1controllers_1_1DriveControl_1_1DriveControl.html#ace694471ffe5221643cfb3a139736cd9',1,'mcs::controllers::DriveControl::DriveControl']]]
 ];

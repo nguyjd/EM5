@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>A Better Approach to Vegetation Management at Utility-Scale PV Plants: Main Page</title>
+<title>A Better Approach to Vegetation Management at Utility-Scale PV Plants: &lt;strong&gt;A Better Approach to Vegetation Management at Utility-Scale PV Plant&lt;/strong&gt;</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,11 +62,69 @@ $(function() {
 </iframe>
 </div>
 
-<div class="header">
+<div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">A Better Approach to Vegetation Management at Utility-Scale PV Plants Documentation</div>  </div>
+<div class="title"><b>A Better Approach to Vegetation Management at Utility-Scale PV Plant</b> </div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="textblock"><p><a class="anchor" id="md_README"></a> This project is the six-phase "A Better Approach to Vegetation Management at Utility-Scale PV Plant" project. This phase aims to improve the functionality and autonomy of the existing five-year-old MowBot by developing a new model while testing the new functionality of the current model.</p>
+<p>The MowBot will cut vegetation surrounding photovoltaic equipment at solar power facilities. Excess vegetation can decrease the energy efficiency of the solar panels due to sunlight blockages around the bottom of the solar panels, so the vegetation must be effectively maintained. The Mowbot will autonomously trim excess vegetation, navigate the photovoltaic facility, and return to its charging station.</p>
+<h1>Team Members</h1>
+<ul>
+<li>Cassidy Holene (Mechanical Engineer)</li>
+<li>Dejan Rasuo (Electrical Engineer)</li>
+<li>Erwin Castro (Computer Engineer)</li>
+<li>Jonathon Nguyen (Computer Engineer)</li>
+<li>Joseph Palomo (Mechanical Engineer)</li>
+<li>Patrick Lichtenwalner (Mechanical Engineer)</li>
+<li>Trevor Buchanan (Electrical Engineer)</li>
+</ul>
+<h1>Project Overview</h1>
+<h2>The Mowbot will go through a new <b>redesign</b> of the physical design.</h2>
+<ul>
+<li>The existing vegetation management solutions are not as efficient, cost-effective, or do not protect the equipment of the solar farms. Some current solutions are livestock grazing with goats or sheep and manual mechanical mowing.</li>
+<li>The Mowbot should not damage the PV equipment or modify the environment.</li>
+<li>The new design will be a scaled up version of the current design. This includes making the cutting area bigger. The cut-area per charge will be increased.</li>
+</ul>
+<p align="center" style="margin-bottom: 0px"></p>
+<p><img src="https://raw.githubusercontent.com/nguyjd/Mowbot/main/images/CurrentMowbot.jpg" alt="Current Mowbot" height="400" align="center" class="inline"/> </p>
+<p align="center"></p>
+<p>Figure 1: The current mowbot prototype.</p>
+<p align="center" style="margin-bottom: 0px"></p>
+<p><img src="https://raw.githubusercontent.com/nguyjd/Mowbot/main/images/newmowbotdesign.png" alt="New CAD Design" height="300" align="center" class="inline"/> </p>
+<p align="center"></p>
+<p>Figure 2: The new upscale Mowbot design.</p>
+<h2>The Mowbot will gain new features to improve the autonomous functionality.</h2>
+<ul>
+<li>The new features include: computer-vision-based object detection, Accelerometer, and Re-charging algorithm.</li>
+<li>The internal computer will be upgraded from a Raspberry PI to an Nvidia Jetson Nano.</li>
+<li>The computers will be used in parallel to split up the processing tasks.</li>
+</ul>
+<h2>The Mowbot will be simulated using Gazebo and ROS.</h2>
+<ul>
+<li>The idea is to simulated and test the robot with all the sensors before building it in real life</li>
+<li>That will help planning out the robot building process and minimize error.</li>
+</ul>
+<p align="center" style="margin-bottom: 0px"></p>
+<p><img src="https://raw.githubusercontent.com/nguyjd/Mowbot/main/images/modelGazebo.png" alt="CAD model in Gazebo" height="300" align="center" class="inline"/> </p>
+<p align="center"></p>
+<p>Figure 3: One of the test CAD model in Gazebo.</p>
+<h1>Computer Features</h1>
+<ul>
+<li>[x] Controlling the relays for the blades and wheels motors.</li>
+<li>[x] Localization with GPS and RTK.</li>
+<li>[x] Turning on and off the blades motors.</li>
+<li>[x] Controlling the speed of the wheel motors.</li>
+<li>[x] Use the data from the wheel encoder.</li>
+<li>[x] Using LiDar for obstacle detection</li>
+<li>[x] Use bumpers to detect collision.</li>
+<li>[ ] Tracking the charge of the battery.</li>
+<li>[ ] Use computer vision for object detection. [^1]</li>
+<li>[ ] Use a accelerometer to detect collision. [^2]</li>
+<li>[ ] Use machine learning to detect obstacles. [^1]</li>
+</ul>
+<p>[^1]: These go hand and hand. Right now, this is very broad. As we go through paces of developing software, the feature definition will become narrow. [^2]: This will replace the bumpers. The bumpers are too sensitive. </p>
+</div></div><!-- PageDoc -->
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

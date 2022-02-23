@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['motorpwm_76',['motorPWM',['../classMD30C_1_1MD30C.html#a134f26ab282e5dedf8ebfab240bac1e2',1,'MD30C.MD30C.motorPWM()'],['../classSabertooth2x60_1_1Sabertooth2x60.html#aefa0f24529e5785871a23f63a6e8cf2d',1,'Sabertooth2x60.Sabertooth2x60.motorPWM()']]]
+  ['motorpwm_82',['motorPWM',['../classmcs_1_1firmware_1_1MD30C_1_1MD30C.html#ad7b4a6630bc7e884d0aea66668ba8553',1,'mcs.firmware.MD30C.MD30C.motorPWM()'],['../classmcs_1_1firmware_1_1Sabertooth2x60_1_1Sabertooth2x60.html#aca79ca7a5b8a018bb0ac9401d4179fba',1,'mcs.firmware.Sabertooth2x60.Sabertooth2x60.motorPWM()']]]
 ];
