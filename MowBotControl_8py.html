@@ -68,69 +68,55 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">MowBotControl.py File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>The main system controller for the mowbot.  
+<p>The main file for the mowbot.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespacemcs_1_1MowBotControl"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemcs_1_1MowBotControl.html">mcs.MowBotControl</a></td></tr>
+<tr class="memdesc:namespacemcs_1_1MowBotControl"><td class="mdescLeft">&#160;</td><td class="mdescRight">The main system controller for the mowbot. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a5be92d87972fc62601434a1a0f2b5438"><td class="memItemLeft" align="right" valign="top"><a id="a5be92d87972fc62601434a1a0f2b5438"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.MowBotControl.testNum</b> = 0</td></tr>
-<tr class="separator:a5be92d87972fc62601434a1a0f2b5438"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5d001d60dbe0d7091a45cb1e93d7cff"><td class="memItemLeft" align="right" valign="top"><a id="af5d001d60dbe0d7091a45cb1e93d7cff"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.MowBotControl.testFile</b> = &quot;test.routines.test&quot; + str(testNum) + &quot;.testFlags&quot;</td></tr>
-<tr class="separator:af5d001d60dbe0d7091a45cb1e93d7cff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68d317fca30ee17dbe514198d1374bf6"><td class="memItemLeft" align="right" valign="top"><a id="a68d317fca30ee17dbe514198d1374bf6"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.MowBotControl.tFlags</b> = importlib.import_module(testFile)</td></tr>
-<tr class="separator:a68d317fca30ee17dbe514198d1374bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad686b2af1a5e106508be06f4f69654bf"><td class="memItemLeft" align="right" valign="top"><a id="ad686b2af1a5e106508be06f4f69654bf"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.MowBotControl.debug</b> = tFlags.MowBotControl_debug</td></tr>
-<tr class="separator:ad686b2af1a5e106508be06f4f69654bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76845ca20069eb0db438c1119ef5afef"><td class="memItemLeft" align="right" valign="top"><a id="a76845ca20069eb0db438c1119ef5afef"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.MowBotControl.enabled</b> = tFlags.MowBotControl_enabled</td></tr>
-<tr class="separator:a76845ca20069eb0db438c1119ef5afef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab12bf457d06e8fa8e84355ddd2bfc661"><td class="memItemLeft" align="right" valign="top"><a id="ab12bf457d06e8fa8e84355ddd2bfc661"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.MowBotControl.testNum</b> = HMI.getTestNum()</td></tr>
+<tr class="separator:ab12bf457d06e8fa8e84355ddd2bfc661"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72ac00e9c3a060f5a308c4225def9b1f"><td class="memItemLeft" align="right" valign="top"><a id="a72ac00e9c3a060f5a308c4225def9b1f"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.MowBotControl.flagFile</b> = &quot;tests.test&quot; + str(testNum) + &quot;.Flags&quot;</td></tr>
+<tr class="separator:a72ac00e9c3a060f5a308c4225def9b1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acda89cb18597c8cfe95af01d0428bbda"><td class="memItemLeft" align="right" valign="top"><a id="acda89cb18597c8cfe95af01d0428bbda"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.MowBotControl.Flags</b> = importlib.import_module(flagFile)</td></tr>
+<tr class="separator:acda89cb18597c8cfe95af01d0428bbda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb4623bf23d3b97f276a7a19939b867f"><td class="memItemLeft" align="right" valign="top"><a id="abb4623bf23d3b97f276a7a19939b867f"></a>
 string&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.MowBotControl.debugPrefix</b> = &quot;[MowBotControl]&quot;</td></tr>
 <tr class="separator:abb4623bf23d3b97f276a7a19939b867f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c1cda98ccd610da39a4134b03254c40"><td class="memItemLeft" align="right" valign="top"><a id="a9c1cda98ccd610da39a4134b03254c40"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>mcs.MowBotControl.globals</b> = manager.dict()</td></tr>
 <tr class="separator:a9c1cda98ccd610da39a4134b03254c40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9ebf22026b4e70fe6f3a6ed6937418e"><td class="memItemLeft" align="right" valign="top"><a id="af9ebf22026b4e70fe6f3a6ed6937418e"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.MowBotControl.testDir</b> = &quot;test.routines.test&quot; + str(testNum) + &quot;.InterruptControl&quot;</td></tr>
-<tr class="separator:af9ebf22026b4e70fe6f3a6ed6937418e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b88ac38da151805a4e679b17eda5d92"><td class="memItemLeft" align="right" valign="top"><a id="a9b88ac38da151805a4e679b17eda5d92"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.MowBotControl.mcs_ic</b> = importlib.import_module(testDir)</td></tr>
-<tr class="separator:a9b88ac38da151805a4e679b17eda5d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ed47be2572882fe9305e18583dfaf9d"><td class="memItemLeft" align="right" valign="top"><a id="a8ed47be2572882fe9305e18583dfaf9d"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>mcs.MowBotControl.proc_ic</b> = multiproc.Process(target = mcs_ic.run, args = (globals, ))</td></tr>
 <tr class="separator:a8ed47be2572882fe9305e18583dfaf9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99bcc42dec4b409a9745e66fca187403"><td class="memItemLeft" align="right" valign="top"><a id="a99bcc42dec4b409a9745e66fca187403"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.MowBotControl.mcs_dsc</b> = importlib.import_module(testDir)</td></tr>
-<tr class="separator:a99bcc42dec4b409a9745e66fca187403"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a920759e9d70e236e6048db3dfeb3bd55"><td class="memItemLeft" align="right" valign="top"><a id="a920759e9d70e236e6048db3dfeb3bd55"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>mcs.MowBotControl.proc_DriveSysControl</b> = multiproc.Process(target = mcs_dsc.run, args = (globals, ))</td></tr>
 <tr class="separator:a920759e9d70e236e6048db3dfeb3bd55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac65831eb8e732af5d3b8f3a6cd32892e"><td class="memItemLeft" align="right" valign="top"><a id="ac65831eb8e732af5d3b8f3a6cd32892e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.MowBotControl.Navigation</b> = importlib.import_module(testDir)</td></tr>
-<tr class="separator:ac65831eb8e732af5d3b8f3a6cd32892e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2471bc288336caa00e5c93a5afeed436"><td class="memItemLeft" align="right" valign="top"><a id="a2471bc288336caa00e5c93a5afeed436"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.MowBotControl.thread_navigation</b> = threading.Thread(target = Navigation.run, args = (globals, ))</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.MowBotControl.thread_navigation</b> = threading.Thread(target = mcs_nav.run, args = (globals, ))</td></tr>
 <tr class="separator:a2471bc288336caa00e5c93a5afeed436"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a518974b6b418ec57238901bd77861118"><td class="memItemLeft" align="right" valign="top"><a id="a518974b6b418ec57238901bd77861118"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.MowBotControl.NEO_M8P</b> = importlib.import_module(testDir)</td></tr>
-<tr class="separator:a518974b6b418ec57238901bd77861118"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab04479cf3b6f7539868dd1d03bbc0d9b"><td class="memItemLeft" align="right" valign="top"><a id="ab04479cf3b6f7539868dd1d03bbc0d9b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.MowBotControl.thread_bladeControl</b> = threading.Thread(target = BladeControl.run, args = (globals, ))</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.MowBotControl.thread_bladeControl</b> = threading.Thread(target = mcs_blades.run, args = (globals, ))</td></tr>
 <tr class="separator:ab04479cf3b6f7539868dd1d03bbc0d9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The main system controller for the mowbot. </p>
-<p>This file </p>
+<div class="textblock"><p>The main file for the mowbot. </p>
+<p>This is the entry point of the program. use "sudo python3 -m mcs.MowBotControl" to start this file and the robot. It spawn all the system controllers and even handles some of the threads like the blades and the navigation. </p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

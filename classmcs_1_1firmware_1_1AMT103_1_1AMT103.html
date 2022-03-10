@@ -76,16 +76,17 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>test  
+<p>This class is the firmware read the encoders on the wheels.  
  <a href="classmcs_1_1firmware_1_1AMT103_1_1AMT103.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a11608d8fb67ad83c74feb8f81aa84391"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmcs_1_1firmware_1_1AMT103_1_1AMT103.html#a11608d8fb67ad83c74feb8f81aa84391">__init__</a> (self, pinXNumber, pinANumber, debugFlag, enabledFlag, overrideFlag, debugName)</td></tr>
-<tr class="memdesc:a11608d8fb67ad83c74feb8f81aa84391"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for relay control module.  <a href="classmcs_1_1firmware_1_1AMT103_1_1AMT103.html#a11608d8fb67ad83c74feb8f81aa84391">More...</a><br /></td></tr>
-<tr class="separator:a11608d8fb67ad83c74feb8f81aa84391"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97d6ba22a18b6d03cea5f6da60f1c6e8"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmcs_1_1firmware_1_1AMT103_1_1AMT103.html#a97d6ba22a18b6d03cea5f6da60f1c6e8">countDown</a> (self, distance_cm)</td></tr>
-<tr class="memdesc:a97d6ba22a18b6d03cea5f6da60f1c6e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints out encoder readings.  <a href="classmcs_1_1firmware_1_1AMT103_1_1AMT103.html#a97d6ba22a18b6d03cea5f6da60f1c6e8">More...</a><br /></td></tr>
+<tr class="memitem:afe0a59209d7795849d223147819faa80"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmcs_1_1firmware_1_1AMT103_1_1AMT103.html#afe0a59209d7795849d223147819faa80">__init__</a> (self, pinXNumber, pinANumber, debugFlag, enabledFlag, debugName)</td></tr>
+<tr class="memdesc:afe0a59209d7795849d223147819faa80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for relay control module.  <a href="classmcs_1_1firmware_1_1AMT103_1_1AMT103.html#afe0a59209d7795849d223147819faa80">More...</a><br /></td></tr>
+<tr class="separator:afe0a59209d7795849d223147819faa80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97d6ba22a18b6d03cea5f6da60f1c6e8"><td class="memItemLeft" align="right" valign="top"><a id="a97d6ba22a18b6d03cea5f6da60f1c6e8"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmcs_1_1firmware_1_1AMT103_1_1AMT103.html#a97d6ba22a18b6d03cea5f6da60f1c6e8">countDown</a> (self, distance_cm)</td></tr>
+<tr class="memdesc:a97d6ba22a18b6d03cea5f6da60f1c6e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints out encoder readings Standard precision using channel X only. <br /></td></tr>
 <tr class="separator:a97d6ba22a18b6d03cea5f6da60f1c6e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -110,10 +111,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ab374525c7af3df81f314059b915e0687"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>test </p>
+<div class="textblock"><p>This class is the firmware read the encoders on the wheels. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a11608d8fb67ad83c74feb8f81aa84391"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11608d8fb67ad83c74feb8f81aa84391">&#9670;&nbsp;</a></span>__init__()</h2>
+<a id="afe0a59209d7795849d223147819faa80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe0a59209d7795849d223147819faa80">&#9670;&nbsp;</a></span>__init__()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -152,12 +153,6 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>overrideFlag</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
           <td class="paramname"><em>debugName</em>&#160;</td>
         </tr>
         <tr>
@@ -171,9 +166,9 @@ Public Attributes</h2></td></tr>
 <p>Constructor for relay control module. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">pinXNumber</td><td>Interger Raspberry Pi GPIO BCM pin number used channel X of encoder </td></tr>
-    <tr><td class="paramname">pinANumber</td><td>Interger Raspberry Pi GPIO BCM pin number used channel X of encoder </td></tr>
-    <tr><td class="paramname">pinBNumber</td><td>Interger Raspberry Pi GPIO BCM pin number used channel X of encoder </td></tr>
+    <tr><td class="paramname">pinXNumber</td><td>Interger Raspberry Pi GPIO Board pin number used channel X of encoder </td></tr>
+    <tr><td class="paramname">pinANumber</td><td>Interger Raspberry Pi GPIO Board pin number used channel X of encoder </td></tr>
+    <tr><td class="paramname">pinBNumber</td><td>Interger Raspberry Pi GPIO Board pin number used channel X of encoder </td></tr>
     <tr><td class="paramname">highPrecision</td><td>Boolean to indicate use of channel A for encoders </td></tr>
     <tr><td class="paramname">ultraPrecision</td><td>Boolean to indicate use of channel A and B for encoders </td></tr>
     <tr><td class="paramname">directional</td><td>Boolean to indicate if direction should be considered. Uess channels A and B </td></tr>
@@ -183,38 +178,6 @@ Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a97d6ba22a18b6d03cea5f6da60f1c6e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97d6ba22a18b6d03cea5f6da60f1c6e8">&#9670;&nbsp;</a></span>countDown()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def mcs.firmware.AMT103.AMT103.countDown </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>distance_cm</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Prints out encoder readings. </p>
-<p>Standard precision using channel X only </p>
 
 </div>
 </div>

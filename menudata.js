@@ -25,10 +25,7 @@
 var menudata={children:[
 {text:"Main Page",url:"index.html"},
 {text:"Packages",url:"namespaces.html",children:[
-{text:"Packages",url:"namespaces.html"},
-{text:"Package Functions",url:"namespacemembers.html",children:[
-{text:"All",url:"namespacemembers.html"},
-{text:"Variables",url:"namespacemembers_vars.html"}]}]},
+{text:"Packages",url:"namespaces.html"}]},
 {text:"Classes",url:"annotated.html",children:[
 {text:"Class List",url:"annotated.html"},
 {text:"Class Index",url:"classes.html"},
@@ -38,6 +35,7 @@ var menudata={children:[
 {text:"c",url:"functions.html#index_c"},
 {text:"d",url:"functions.html#index_d"},
 {text:"e",url:"functions.html#index_e"},
+{text:"l",url:"functions.html#index_l"},
 {text:"m",url:"functions.html#index_m"},
 {text:"p",url:"functions.html#index_p"},
 {text:"r",url:"functions.html#index_r"},
