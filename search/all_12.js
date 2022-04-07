@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['veerleftdegrees_66',['veerLeftDegrees',['../classmcs_1_1controllers_1_1DriveControl_1_1DriveControl.html#a0a1a5311d7ab61b4f34f08d375b1e58a',1,'mcs::controllers::DriveControl::DriveControl']]],
-  ['veerrightdegrees_67',['veerRightDegrees',['../classmcs_1_1controllers_1_1DriveControl_1_1DriveControl.html#a5597c6800e01c9c4a1d08053abd72049',1,'mcs::controllers::DriveControl::DriveControl']]]
+  ['wheel_5fdiameter_57',['WHEEL_DIAMETER',['../DriveControl_8py.html#aaf16f9b3335dbe3f3e360be7b0117355',1,'mcs::controllers::DriveControl']]]
 ];

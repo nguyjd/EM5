@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['sabertooth2x60_76',['Sabertooth2x60',['../classmcs_1_1firmware_1_1Sabertooth2x60_1_1Sabertooth2x60.html',1,'mcs::firmware::Sabertooth2x60']]]
+  ['uart_66',['UART',['../classmcs_1_1firmware_1_1UART_1_1UART.html',1,'mcs::firmware::UART']]]
 ];

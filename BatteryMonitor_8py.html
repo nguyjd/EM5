@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>A Better Approach to Vegetation Management at Utility-Scale PV Plants: mcs/firmware/NEO_M8P.py File Reference</title>
+<title>A Better Approach to Vegetation Management at Utility-Scale PV Plants: mcs/controllers/BatteryMonitor.py File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -63,45 +63,36 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_f9f6529039a1de3fd658173d4f7b0043.html">mcs</a></li><li class="navelem"><a class="el" href="dir_53b0894f785963846a5438ca4def87e9.html">firmware</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_f9f6529039a1de3fd658173d4f7b0043.html">mcs</a></li><li class="navelem"><a class="el" href="dir_1cb3cf5beeffa739abe1bbbc3b76f84e.html">controllers</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">NEO_M8P.py File Reference</div>  </div>
+<div class="title">BatteryMonitor.py File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Find the location of the Mowbot via gps.  
+<p>Tells the robot when the battery is low or charged.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespacemcs_1_1firmware"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemcs_1_1firmware.html">mcs.firmware</a></td></tr>
-<tr class="memdesc:namespacemcs_1_1firmware"><td class="mdescLeft">&#160;</td><td class="mdescRight">The lowest level of the mcs responsible for controling each components. <br /></td></tr>
+<tr class="memitem:namespacemcs_1_1controllers"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemcs_1_1controllers.html">mcs.controllers</a></td></tr>
+<tr class="memdesc:namespacemcs_1_1controllers"><td class="mdescLeft">&#160;</td><td class="mdescRight">This software layer interfaces the components and the overall control system. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a681f9095345a7be490537b309568624d"><td class="memItemLeft" align="right" valign="top"><a id="a681f9095345a7be490537b309568624d"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.firmware.NEO_M8P.run</b> (debug, enabled, rtk_enabled, rtkStatusPin, globals)</td></tr>
-<tr class="separator:a681f9095345a7be490537b309568624d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a75ab3b064e90c521b141cef5cc75f466"><td class="memItemLeft" align="right" valign="top"><a id="a75ab3b064e90c521b141cef5cc75f466"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.firmware.NEO_M8P.FAILED_READ_ALARM_THRESHOLD</b> = 3</td></tr>
-<tr class="separator:a75ab3b064e90c521b141cef5cc75f466"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa4ea7d50de248661698f9213003dfae"><td class="memItemLeft" align="right" valign="top"><a id="afa4ea7d50de248661698f9213003dfae"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.firmware.NEO_M8P.FAILED_READ_ALARM_FREQUENCY</b> = 10</td></tr>
-<tr class="separator:afa4ea7d50de248661698f9213003dfae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01a6f0bf33daae0c81d6f1cb426f5b40"><td class="memItemLeft" align="right" valign="top"><a id="a01a6f0bf33daae0c81d6f1cb426f5b40"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BatteryMonitor_8py.html#a01a6f0bf33daae0c81d6f1cb426f5b40">mcs.controllers.BatteryMonitor.run</a> (globals)</td></tr>
+<tr class="memdesc:a01a6f0bf33daae0c81d6f1cb426f5b40"><td class="mdescLeft">&#160;</td><td class="mdescRight">The function that the spawned process uses. <br /></td></tr>
+<tr class="separator:a01a6f0bf33daae0c81d6f1cb426f5b40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Find the location of the Mowbot via gps. </p>
+<div class="textblock"><p>Tells the robot when the battery is low or charged. </p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

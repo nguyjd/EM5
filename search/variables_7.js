@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['y_5fthreshold_139',['Y_THRESHOLD',['../CollisionDetection_8py.html#aabec0956772a4b501c60ce9bd59a6eaf',1,'mcs::controllers::CollisionDetection']]]
+  ['wheel_5fdiameter_117',['WHEEL_DIAMETER',['../DriveControl_8py.html#aaf16f9b3335dbe3f3e360be7b0117355',1,'mcs::controllers::DriveControl']]]
 ];

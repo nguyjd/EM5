@@ -68,8 +68,8 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">DriveControl.py File Reference</div>  </div>
@@ -79,38 +79,70 @@ $(function() {
 <p>Controls the wheel motors and implements driving and turning.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmcs_1_1controllers_1_1DriveControl_1_1DriveControl.html">mcs.controllers.DriveControl.DriveControl</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class is the firmware used to control the wheel motors via the Sabertooth2x60 hardware.  <a href="classmcs_1_1controllers_1_1DriveControl_1_1DriveControl.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacemcs_1_1controllers"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemcs_1_1controllers.html">mcs.controllers</a></td></tr>
 <tr class="memdesc:namespacemcs_1_1controllers"><td class="mdescLeft">&#160;</td><td class="mdescRight">This software layer interfaces the components and the overall control system. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:acc9f3ce07dc571f3c31a6fb719e77a9f"><td class="memItemLeft" align="right" valign="top"><a id="acc9f3ce07dc571f3c31a6fb719e77a9f"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="DriveControl_8py.html#acc9f3ce07dc571f3c31a6fb719e77a9f">mcs.controllers.DriveControl.run</a> (globals)</td></tr>
+<tr class="memdesc:acc9f3ce07dc571f3c31a6fb719e77a9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The function that the spawned process uses. <br /></td></tr>
+<tr class="separator:acc9f3ce07dc571f3c31a6fb719e77a9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:addb146722daab3f7c4f581d9873af37e"><td class="memItemLeft" align="right" valign="top"><a id="addb146722daab3f7c4f581d9873af37e"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="DriveControl_8py.html#addb146722daab3f7c4f581d9873af37e">mcs.controllers.DriveControl.NORMAL_DRIVE_SPEED</a> = 50</td></tr>
+<tr class="memdesc:addb146722daab3f7c4f581d9873af37e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Speed of the robot in each phase. <br /></td></tr>
+<tr class="separator:addb146722daab3f7c4f581d9873af37e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae16c0e838e6cf03bc04dda0af65b68cc"><td class="memItemLeft" align="right" valign="top"><a id="ae16c0e838e6cf03bc04dda0af65b68cc"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.controllers.DriveControl.PIVOT_SPEED</b> = 30</td></tr>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.controllers.DriveControl.PIVOT_SPEED</b> = 18</td></tr>
 <tr class="separator:ae16c0e838e6cf03bc04dda0af65b68cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a939fad4faf8114eca17b436f6a983cc8"><td class="memItemLeft" align="right" valign="top"><a id="a939fad4faf8114eca17b436f6a983cc8"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.controllers.DriveControl.CAUTION_DRIVE_SPEED</b> = 25</td></tr>
+<tr class="separator:a939fad4faf8114eca17b436f6a983cc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf16f9b3335dbe3f3e360be7b0117355"><td class="memItemLeft" align="right" valign="top"><a id="aaf16f9b3335dbe3f3e360be7b0117355"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="DriveControl_8py.html#aaf16f9b3335dbe3f3e360be7b0117355">mcs.controllers.DriveControl.WHEEL_DIAMETER</a> = 33</td></tr>
+<tr class="memdesc:aaf16f9b3335dbe3f3e360be7b0117355"><td class="mdescLeft">&#160;</td><td class="mdescRight">Real stats on about the robot. <br /></td></tr>
+<tr class="separator:aaf16f9b3335dbe3f3e360be7b0117355"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cb9b40afc2e7efbc054801baaa74603"><td class="memItemLeft" align="right" valign="top"><a id="a1cb9b40afc2e7efbc054801baaa74603"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.controllers.DriveControl.DISTANCE_WHEEL_TO_WHEEL</b> = 93</td></tr>
 <tr class="separator:a1cb9b40afc2e7efbc054801baaa74603"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a058fc0367b0702106610f2f73d4d732a"><td class="memItemLeft" align="right" valign="top"><a id="a058fc0367b0702106610f2f73d4d732a"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.controllers.DriveControl.GEAR_RATIO</b> = 26</td></tr>
+<tr class="separator:a058fc0367b0702106610f2f73d4d732a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a569606457388ae8760a491e276d1c238"><td class="memItemLeft" align="right" valign="top"><a id="a569606457388ae8760a491e276d1c238"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="DriveControl_8py.html#a569606457388ae8760a491e276d1c238">mcs.controllers.DriveControl.OBJECT_DETECTION_SLOW_DOWN_FACTOR</a> = 1.5</td></tr>
+<tr class="memdesc:a569606457388ae8760a491e276d1c238"><td class="mdescLeft">&#160;</td><td class="mdescRight">Params. <br /></td></tr>
+<tr class="separator:a569606457388ae8760a491e276d1c238"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac3912b5a429eadd0d25853a51e23612"><td class="memItemLeft" align="right" valign="top"><a id="aac3912b5a429eadd0d25853a51e23612"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.controllers.DriveControl.OBJECT_DETECTION_STOP_DISTANCE</b> = 15</td></tr>
+<tr class="separator:aac3912b5a429eadd0d25853a51e23612"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20cdaaeffa7e5945b40e46656ea283c7"><td class="memItemLeft" align="right" valign="top"><a id="a20cdaaeffa7e5945b40e46656ea283c7"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.controllers.DriveControl.ENCODER_TOLERANCE</b> = 10</td></tr>
+<tr class="separator:a20cdaaeffa7e5945b40e46656ea283c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70765a2a0984f14e7c9583aff05dc343"><td class="memItemLeft" align="right" valign="top"><a id="a70765a2a0984f14e7c9583aff05dc343"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.controllers.DriveControl.PIVOT_CIRCUMFERENCE</b> = 3.14 * DISTANCE_WHEEL_TO_WHEEL</td></tr>
+float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="DriveControl_8py.html#a70765a2a0984f14e7c9583aff05dc343">mcs.controllers.DriveControl.PIVOT_CIRCUMFERENCE</a> = 3.14 * DISTANCE_WHEEL_TO_WHEEL</td></tr>
+<tr class="memdesc:a70765a2a0984f14e7c9583aff05dc343"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculated Values for travel. <br /></td></tr>
 <tr class="separator:a70765a2a0984f14e7c9583aff05dc343"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae70bff2257368ceb4a7ee4448a9ac500"><td class="memItemLeft" align="right" valign="top"><a id="ae70bff2257368ceb4a7ee4448a9ac500"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.controllers.DriveControl.DISTANCE_PER_DEGREE</b> = PIVOT_CIRCUMFERENCE / 360</td></tr>
 <tr class="separator:ae70bff2257368ceb4a7ee4448a9ac500"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addb146722daab3f7c4f581d9873af37e"><td class="memItemLeft" align="right" valign="top"><a id="addb146722daab3f7c4f581d9873af37e"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.controllers.DriveControl.NORMAL_DRIVE_SPEED</b> = 50</td></tr>
-<tr class="separator:addb146722daab3f7c4f581d9873af37e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c65efe5d1809dc8112fc24e3913125b"><td class="memItemLeft" align="right" valign="top"><a id="a4c65efe5d1809dc8112fc24e3913125b"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.controllers.DriveControl.COURSE_CORRECTION_FACTOR</b> = 0.2</td></tr>
-<tr class="separator:a4c65efe5d1809dc8112fc24e3913125b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff1ab3247f0a8a031af3381bb7d09533"><td class="memItemLeft" align="right" valign="top"><a id="aff1ab3247f0a8a031af3381bb7d09533"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.controllers.DriveControl.INDEX_PULSE_PER_WHEEL_ROTATION</b> = GEAR_RATIO</td></tr>
+<tr class="separator:aff1ab3247f0a8a031af3381bb7d09533"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adee45b2c5fb0288979c0845ef761901e"><td class="memItemLeft" align="right" valign="top"><a id="adee45b2c5fb0288979c0845ef761901e"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.controllers.DriveControl.INDEX_CHANGE_PER_WHEEL_ROTATION</b> = 2 * GEAR_RATIO</td></tr>
+<tr class="separator:adee45b2c5fb0288979c0845ef761901e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae037dc4ca899e60b87cff9e3cf8ff12"><td class="memItemLeft" align="right" valign="top"><a id="aae037dc4ca899e60b87cff9e3cf8ff12"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.controllers.DriveControl.WHEEL_CIRCUMFERENCE</b> = 3.14 * WHEEL_DIAMETER</td></tr>
+<tr class="separator:aae037dc4ca899e60b87cff9e3cf8ff12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a384148feb06553f5912a321a4a1895c9"><td class="memItemLeft" align="right" valign="top"><a id="a384148feb06553f5912a321a4a1895c9"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>mcs.controllers.DriveControl.DISTANCE_PER_STEP</b> = WHEEL_CIRCUMFERENCE / INDEX_CHANGE_PER_WHEEL_ROTATION</td></tr>
+<tr class="separator:a384148feb06553f5912a321a4a1895c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Controls the wheel motors and implements driving and turning. </p>
